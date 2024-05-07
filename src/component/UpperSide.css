@@ -1,0 +1,66 @@
+.UpperSide {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 2.5rem;
+    width: 175px;
+    height: 85vh;
+    color: rgb(90,90,90);
+    background-color: rgb(225,225,225);
+    cursor: pointer;
+
+}
+
+#Upperone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 2rem;
+    width: 100%;
+}
+
+.UpperCompose {
+    width: 100%;
+    height: 60px;
+    background-color: lightblue;
+    border-radius: 15px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    cursor: pointer;
+
+}
+.UpperCompose:hover {
+   box-shadow: 5px 5px 5px 5px grey;
+   
+}
+.UpperLink {
+    width: 131px;
+    text-decoration: none;
+}
+
+.UpperSymbolname {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+}
+.UpperSymbolname:hover {
+    background-color: rgba(150,150,150,0.8);
+}
+
+@media (max-width:1000px){
+    .UpperCompose svg{
+        width: 25px;
+        height: 25px;
+    }
+
+}

@@ -1,0 +1,70 @@
+.Inbox {
+    border-radius: 1rem;
+    width: 94%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: white;
+    
+}
+
+.top-icons {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+}
+#first {
+    display: flex;
+    gap: 2.5rem;
+    
+}
+#second {
+    display: flex;
+    gap:10px;
+    
+}
+.initialicon{
+    display: flex;
+    gap: 2.5rem;
+    margin-left: 1.5rem;
+}
+
+.Overflow {
+    height: 70vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+.Populate:hover{
+    cursor: pointer;
+    background-color: rgb(230,230,230);
+}
+.Populate {
+    width: 20%;
+    text-align: center;
+    padding: 1rem;
+}
+
+@media (max-width:650px){
+    .Inbox {
+        width: 100%;
+    }
+}
+@media (max-width:450px){
+    .Populate{
+        width: 33%;
+        padding: 0.5rem;
+        font-size: 0.8rem;
+    }
+    .initialicon{
+        gap: 1.5rem;
+    }
+    #first {
+        gap: 1rem;
+    }
+    .top-icons{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
